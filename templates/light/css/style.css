@@ -1,0 +1,20 @@
+/* 
+    Document   : style
+    Created on : Sep 19, 2012, 5:03:30 PM
+    Author     : magneticmg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ul#mylist li {list-style: none}
+span.ui-edit { float: left; margin-right: 10px;}
+span.ui-date-line { float: right;}
+table#mylist_table, ul#mylist { width: 750px;}
+a.edit { color: #99000; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited,
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{ color: #990000}
+div.sort { float: right; }
+div.maincontent { width: 800px;}
+div.good { text-align: "center"; color:#99000; background-color: #8ae234; height: 40px; border: 1px solid #99000; width: 300px;  }
+div.bad { text-align: "center"; color:#ff0000; background-color: lightpink; height: 40px; border: 1px solid #ff0000; width: 300px;}
+a.delete, a.edit { padding-left: 3px; padding-right: 3px; }

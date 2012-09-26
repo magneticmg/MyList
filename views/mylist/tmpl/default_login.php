@@ -1,0 +1,28 @@
+<?php
+/* ==========================================================================*\
+  || ######################################################################## ||
+  || # MMInc PHP                                                            # ||
+  || # Project: MyList                                             # ||
+  || #  $Id:  $                                                             # ||
+  || # $Date:  $                                                            # ||
+  || # $Author:  $                                                          # ||
+  || # $Rev: $                                                              # ||
+  || # -------------------------------------------------------------------- # ||
+  || # @Copyright (C) 2010 - Cameron Barr, Magnetic Merchandising Inc.      # ||
+  || # @license GNU/GPL http://www.gnu.org/copyleft/gpl.html                # ||
+  || # -------------------------------------------------------------------- # ||
+  || # http://www.magneticmerchandising.com  info@magneticmerchandising.com # ||
+  ||                                                                          ||
+  || # -------------------------------------------------------------------- # ||
+  || ######################################################################## ||
+  \*========================================================================== */
+?>
+<form name="login" action="index.php" method="post">
+<?php 
+$fields = $this->userform->getFieldSet('credentials');
+ foreach ($fields as $field): ?> 
+    <div class="field_label"><?php echo $field->label; ?></div>      
+    <div class="field_input"><?php echo $field->input; ?></div>      
+  <?php  endforeach; ?>
+    <input type="submit" value="Login" id="login_button"/>
+</form>
