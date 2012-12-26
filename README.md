@@ -1,3 +1,6 @@
+This little project was a demo that I was asked to do for a Job interview of sorts. Its a standalone application built on the Joomla! 12.1 Application platform. 
+It was a good exercise, because through doing it I disovered Joomla!'s newish RESTful implementation. 
+
 Usage
 
 Each request must have ?p=demo&a=demo attached to the request. a is the username and p is the password. Same for the REST part
